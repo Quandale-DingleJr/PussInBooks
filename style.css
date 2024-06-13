@@ -87,7 +87,7 @@ button:hover{
     width: 10%;
     background-color: #000000;
     color: #3399ff;
-    min-height: 529px;
+    min-height: 990px;
     border-left: 2px solid white;
 }
 ul{
@@ -118,20 +118,32 @@ select{
 select:hover{
     color: #3399ff;
 }
-.text{
+#header{
     width: 90%;
-    font-size: 24px;
-    font-weight: bold;
-    color: #3399ff;
+    text-align: left;
     line-height: 70px;
+    font-weight: bold;
+
+}
+.main{
+    font-size: 24px;
+    color: #3399ff;
     padding: 0 0 0 3%;
     background-color: #000000;
-    text-align: left;
-    margin-bottom: 15px;
 }
-.text:nth-child(2){
+.sub1{
+    margin-top: 15px;
     font-size: 18px;
     color: white;
+    background-color: #000000;
+    padding-left: 8%;
+    margin-bottom: 0;
+}
+.sub2{
+    margin-top: 390px;
+    font-size: 18px;
+    color: white;
+    background-color: #000000;
     padding-left: 8%;
     margin-bottom: 0;
 }
